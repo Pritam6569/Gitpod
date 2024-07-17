@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: sudo systemctl start libvirtd
+    command: echo "KVM is ready!"
+    
